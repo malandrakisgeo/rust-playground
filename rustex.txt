@@ -1,0 +1,47 @@
+
+1. 
+We have a .csv with the following columns:
+ID  NAME    SURNAME AFM DATEOFBIRTH EMAIL
+
+Write a rust program where you insert the path to the file, load it, and then search entries by entering the AFM.
+
+2. 
+Persist the .csv above to a mysql database and search using queries. 
+
+3. 
+Convert the .csv to yaml with rust. 
+
+4. 
+    Write a simple linux driver in rust. Porting an already existing driver, no matter how simple or complex, 
+    is ok. 
+    
+5. 
+Write a program that overwrites RAM with either zeroes, or random data. 
+
+
+
+
+
+
+
+1. 
+Σε ενα .csv υπαρχουν στοιχεια χρηστων με την εξης μορφη: 
+ID     ΟΝΟΜΑ   ΕΠΩΝΥΜΟ     ΑΦΜ     ΗΜΕΡΟΜΗΝΙΑ-ΓΕΝΝΗΣΗΣ     email 
+
+Δινεις το αρχειο στο προγραμμα ως ορισμα, και πατας 1 για αναζητηση με βαση το id, 2 με βαση το αφμ. 
+Εφοσον βρεθει κατι, εμφανιζεται η καταχωρηση. 
+
+
+2. 
+Το παραπανω csv μεταφέρεται σε mysql DB και γίνεται persisted εκει. 
+Οι μετέπειτα αναζητήσεις γίνονται με query. 
+
+3. 
+    Μετατροπη του csv σε yaml με rust. 
+
+4. 
+    Έναν απλό linux driver σε rust. 
+    Κατά προτιμηση port καποιου ηδη υπάρχοντος -από τους απλούς.
+    
+5. 
+    Το memwiper για rust 

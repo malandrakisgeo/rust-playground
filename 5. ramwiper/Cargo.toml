@@ -1,0 +1,19 @@
+[package]
+name = "ex2"
+version = "0.0.1"
+authors = ["George Malandrakis <malandrakisgeo@gmail.com>"]
+edition = "2018"
+
+description = "A porting of the ramwiper found on: https://github.com/malandrakisgeo/memwiper for Rust"
+
+repository = ""
+
+[dependencies]
+libc = "0.2"
+#jemalloc-sys = "0.3.2"
+sysinfo = "0.20.3"
+rand = "0.8.0"
+
+[[bin]]
+name="ex2"
+path = "main.rs"
