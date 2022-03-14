@@ -18,6 +18,10 @@ Convert the .csv to yaml with rust.
 5. 
 Write a program that overwrites RAM with either zeroes, or random data. 
 
+6.
+        Concurrently encrypt all files in a folder, in as many threads as the virtual cpu:s of the system.
+        Print a message in each thread with the timestamp of it starting and ending.
+        The encryption password is to be parsed as argument in the command line.
 
 
 

@@ -1,0 +1,21 @@
+[package]
+name = "ex6"
+version = "0.0.1"
+authors = ["George Malandrakis <malandrakisgeo@gmail.com>"]
+edition = "2021"
+
+description = "A multi-threaded file encryption tool"
+
+repository = ""
+
+[dependencies]
+clap="3.1.5"
+threadpool = "1.8.1"
+walkdir="2.2.5"
+num_cpus="1.13.1"
+#aes = "0.8.1"
+enc_file="0.3.33"
+
+[[bin]]
+name="ex6"
+path = "main.rs"
